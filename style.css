@@ -1,0 +1,222 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+:root {
+  --mycolor1: blue;
+  --mycolor2: black;
+  --mycolor3: purple;
+  --parentcolor: orange;
+  --mycolor4: brown;
+}
+.firstparent {
+  height: 500px;
+  width: auto;
+  background-color: rgba(169, 169, 169, 0.11);
+  margin: 20px;
+  display: flex;
+  padding-left: 50px;
+  gap: 20px;
+  justify-content: center;
+}
+.boxA {
+  height: 4700px;
+  width: 340px;
+  border: none !important;
+  margin-top: 40px;
+}
+.boxA img {
+  height: 350px;
+  width: 340px;
+  object-fit: contain;
+  display: block;
+}
+.boxB {
+  height: 150px;
+  width: 300px;
+  border: none !important ;
+  margin-top: 130px;
+}
+.text {
+  text-align: center;
+}
+.parent {
+  margin: 20px;
+  display: flex;
+  padding-left: 50px;
+  gap: 20px;
+  justify-content: center;
+}
+.box {
+  height: 540px;
+  width: 550px;
+  border: none;
+  margin-top: 40px;
+  background-color: rgba(169, 169, 169, 0.137);
+}
+.box img {
+  height: 500px;
+  width: 550px;
+  object-fit: contain;
+  margin-top: 40px;
+}
+.box1 {
+  height: 250px;
+  width: 300px;
+  border: none;
+  margin-top: 40px;
+  background-color: rgba(169, 169, 169, 0.164);
+}
+.box1 img {
+  height: 250px;
+  width: 300px;
+  object-fit: cover;
+  display: block;
+  object-position: top;
+}
+.boxx1 {
+  height: 250px;
+  width: 300px;
+  border: none;
+  margin-top: 40px;
+  background-color: rgba(169, 169, 169, 0.164);
+}
+.boxx1 img {
+  height: 250px;
+  width: 300px;
+  object-fit: cover;
+  display: block;
+  object-position: top;
+}
+.parentA {
+  margin: 20px;
+  display: flex;
+  padding-left: 50px;
+  gap: 20px;
+  justify-content: center;
+}
+.box2 {
+  height: 280px;
+  width: 250px;
+  border: none;
+  margin-top: 40px;
+  background-color: rgba(169, 169, 169, 0.315);
+}
+.box2 img {
+  height: 280px;
+  width: 250px;
+  object-fit: contain;
+  display: block;
+  object-position: top;
+}
+.box3 {
+  height: 280px;
+  width: 250px;
+  border: none;
+  margin-top: 40px;
+  background-color: rgba(169, 169, 169, 0.315);
+}
+.box3 img {
+  height: 280px;
+  width: 250px;
+  object-fit: contain;
+}
+.box4 {
+  height: 280px;
+  width: 250px;
+  border: none;
+  margin-top: 40px;
+  background-color: rgba(169, 169, 169, 0.315);
+}
+.box4 img {
+  height: 280px;
+  width: 250px;
+  object-fit: contain;
+}
+.box5 {
+  height: 280px;
+  width: 250px;
+  border: none;
+  margin-top: 40px;
+  background-color: rgba(169, 169, 169, 0.315);
+}
+.box5 img {
+  height: 280px;
+  width: 250px;
+  object-fit: cover;
+  object-position: top;
+}
+.box6 {
+  height: 280px;
+  width: 250px;
+  border: none;
+  margin-top: 40px;
+  background-color: rgba(169, 169, 169, 0.315);
+}
+.box6 img {
+  height: 280px;
+  width: 250px;
+  object-fit: cover;
+  object-position: top;
+}
+.box7 {
+  height: 280px;
+  width: 250px;
+  border: none;
+  margin-top: 40px;
+  background-color: rgba(169, 169, 169, 0.315);
+}
+.box7 img {
+  height: 280px;
+  width: 250px;
+  object-fit: cover;
+  object-position: top;
+}
+.parentB {
+  margin: 20px;
+  display: flex;
+  padding-left: 50px;
+  gap: 20px;
+  justify-content: center;
+}
+.box8 {
+  height: 150px;
+  width: 200px;
+  border: 2px solid var(--mycolor2);
+  margin-top: 40px;
+}
+.box9 {
+  height: 150px;
+  width: 200px;
+  border: 2px solid var(--mycolor2);
+  margin-top: 40px;
+}
+.box10 {
+  height: 150px;
+  width: 200px;
+  border: 2px solid var(--mycolor2);
+  margin-top: 40px;
+}
+.lastparent {
+  height: 400px;
+  width: auto;
+  border: 2px solid var(--mycolor4);
+  margin: 20px;
+  display: flex;
+  padding-left: 50px;
+  gap: 20px;
+  justify-content: center;
+}
+.boxA {
+  height: 340px;
+  width: 340px;
+  border: 2px solid var(--mycolor2);
+  margin-top: 40px;
+}
+.boxB {
+  height: 150px;
+  width: 300px;
+  border: 2px solid var(--mycolor2);
+  margin-top: 130px;
+}
